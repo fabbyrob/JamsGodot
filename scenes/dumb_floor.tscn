@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://art/enemyWalking_2.png" type="Texture" id=1]
+
+[node name="floor" type="RigidBody2D"]
+position = Vector2( 276.526, 366.105 )
+mode = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PoolVector2Array( 43.5, -44.4, 43.5, -42.9, 56.5, -31.9, 56.5, -29.6, 62.5, -20.6, 62.5, 19.4, 55.7, 33, 54.4, 33, 45.4, 43, 43.1, 43, 35.2, 48, -39.5, 48, -43.5, 43.8, -43.5, 29.3, -59.5, 32.4, -59.5, 30.1, -62.5, 28.3, -62.5, 9.9, -44.5, 3.5, -43.7, -6, -45.9, -6, -62.5, -12.9, -62.5, -31, -59.5, -35, -50.2, -35, -43.5, -32.8, -43.5, -43.8, -39.5, -47.8, 34.5, -48 )
+
+[node name="enemyWalking_2" type="Sprite" parent="."]
+texture = ExtResource( 1 )

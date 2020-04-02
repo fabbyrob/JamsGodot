@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="DumDum1"
+run/main_scene="res://scenes/Stage.tscn"
 config/icon="res://icon.png"
 
 [rendering]
